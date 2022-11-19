@@ -142,7 +142,7 @@ void CheatMenu::draw(video::IVideoDriver *driver, bool show_debug)
 	CHEAT_MENU_GET_SCRIPTPTR
 
 	if (!show_debug)
-		drawEntry(driver, "Dragonfireclient", 0, false, false,
+		drawEntry(driver, "CometClient", 0, false, false,
 				CHEAT_MENU_ENTRY_TYPE_HEAD);
 	int category_count = 0;
 	for (auto category = script->m_cheat_categories.begin();
