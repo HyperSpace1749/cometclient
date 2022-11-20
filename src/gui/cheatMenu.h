@@ -63,15 +63,15 @@ private:
 	int m_selected_cheat = 0;
 	int m_selected_category = 0;
 
-	int m_head_height = 50;
+	int m_head_height = 45;
 	int m_entry_height = 40;
-	int m_entry_width = 200;
-	int m_gap = 3;
+	int m_entry_width = 105;
+	int m_gap = 5;
 
-	video::SColor m_bg_color = video::SColor(192, 255, 145, 88);
-	video::SColor m_active_bg_color = video::SColor(192, 255, 87, 53);
-	video::SColor m_font_color = video::SColor(255, 0, 0, 0);
-	video::SColor m_selected_font_color = video::SColor(255, 255, 252, 88);
+	video::SColor m_bg_color = video::SColor(0, 0, 0, 0);
+	video::SColor m_active_bg_color = video::SColor(0, 255, 255, 0);
+	video::SColor m_font_color = video::SColor(255, 255, 0, 0);
+	video::SColor m_selected_font_color = video::SColor(255, 255, 0, 0);
 
 	FontMode fontStringToEnum(std::string str);
 
